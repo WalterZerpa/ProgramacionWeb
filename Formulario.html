@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-color: skyblue;
+		}
+	</style>
+	<title>Formulario de contacto</title>
+</head>
+<body>
+	<h1>Contáctame</h1>
+	<form>
+		<label for="apellidoP">Apellido paterno:</label><br>
+		<input type="text" name="apellidoP" placeholder="Ingrese su apellido paterno"><br><br>
+
+		<label for="apellidoM">Apellido materno:</label><br>
+		<input type="text" name="apellidoM" placeholder="Ingrese su apellido materno"><br><br>
+
+		<label for="nombres">Nombres:</label><br>
+		<input type="text" name="nombres" placeholder="Ingrese sus nombres"><br><br>
+
+		<label>Sexo:</label><br>
+
+		<input type="radio" name="sexo" id="masculino">
+		<label for="masculino">Masculino</label>
+		<input type="radio" name="sexo" id="femenino">
+		<label for="femenino">Femenino</label><br><br>
+
+		<label>Fecha de nacimiento:</label>
+		<input type="date" name="fecha"><br><br>
+
+		<label for="programación">Lenguajes de programación:</label><br>
+
+		<input type="checkbox" name="programación">
+		<label for="programación">C++</label>
+		<input type="checkbox" name="programación">
+		<label for="programación">Java</label>
+		<input type="checkbox" name="programación">
+		<label for="programación">Javascript</label>
+		<input type="checkbox" name="programación">
+		<label for="programación">PHP</label>
+		<input type="checkbox" name="programación">
+		<label for="programación">Python</label><br><br>
+
+		<label for="universidad">Universidad:</label><br>
+		<select>
+			<option>Universidad Nacional del Callao</option>
+			<option>Universidad Nacional de Ingeniería</option>
+			<option>Universidad Nacional Mayor de San Marcos</option>
+			<option>Universidad Nacional Federico Villarreal</option>
+			<option>Pontificia Universidad Católica del Perú</option>
+		</select><br><br>
+
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
