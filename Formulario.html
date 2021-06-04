@@ -3,48 +3,69 @@
 <head>
 	<style>
 		body{
-			background-color: gray;
+			background-color: black;
+		}
+		a:link, a:visited {
+			font-size: 20px;
+			font-family: corbel;
+  			color: white;
+  			padding: 25px 25px;
+  			margin-right: 50px;
+  			text-align: center;
+  			text-decoration: none;
+ 			display: inline-block;
+		}
+
+		a:hover, a:active {
+ 			background-color: gray;
 		}
 	</style>
 	<title>Formulario de contacto</title>
 </head>
 <body>
-	<h1>Contáctame</h1>
-	<form>
-		<label for="apellidoP">Apellido paterno:</label><br>
-		<input type="text" name="apellidoP" placeholder="Ingrese su apellido paterno"><br><br>
+	<div align="right">
+		<b><a href="https://walterzerpa.github.io/ProgramacionWeb/PresentacionOficial">INICIO</a></b>
+	</div>
+	<h1 style="color: white; font-family: arial; text-align: center;">CONTÁCTAME</h1>
 
-		<label for="apellidoM">Apellido materno:</label><br>
-		<input type="text" name="apellidoM" placeholder="Ingrese su apellido materno"><br><br>
+	<form style="font-family: arial; font-size: 20px; background-color: gray; margin-left: 300px; margin-right: 300px; margin-bottom: 50px; padding: 50px">
 
-		<label for="nombres">Nombres:</label><br>
-		<input type="text" name="nombres" placeholder="Ingrese sus nombres"><br><br>
+		<label for="apellidoP" style="margin-left: 50px;">Apellido paterno</label><br>
+		<input type="text" name="apellidoP" placeholder="Ingrese su apellido paterno" size="35" style="margin-left: 50px;"><br><br>
 
-		<label>Sexo:</label><br>
+		<label for="apellidoM" style="margin-left: 50px;">Apellido materno</label><br>
+		<input type="text" name="apellidoM" placeholder="Ingrese su apellido materno" size="35" style="margin-left: 50px;"><br><br>
 
-		<input type="radio" name="sexo" id="masculino">
+		<label for="nombres" style="margin-left: 50px;">Nombres</label><br>
+		<input type="text" name="nombres" placeholder="Ingrese sus nombres" style="margin-left: 50px;" size="70"><br><br>
+
+		<label for="sexo" style="margin-left: 50px;">Sexo:</label>
+
+		<input type="radio" name="sexo" id="masculino" style="margin-left: 50px;">
 		<label for="masculino">Masculino</label>
-		<input type="radio" name="sexo" id="femenino">
+		<input type="radio" name="sexo" id="femenino" style="margin-left: 50px;>
 		<label for="femenino">Femenino</label><br><br>
 
-		<label>Fecha de nacimiento:</label>
+		<label for="nacimiento" style="margin-left: 50px;">Fecha de nacimiento:</label>
 		<input type="date" name="fecha"><br><br>
 
-		<label for="programación">Lenguajes de programación:</label><br>
+		<label for="programación" style="margin-left: 50px;">Lenguajes de programación</label><br><br>
 
-		<input type="checkbox" name="programación">
+		<input type="checkbox" name="programación" style="margin-left: 50px;">
 		<label for="programación">C++</label>
-		<input type="checkbox" name="programación">
+		<input type="checkbox" name="programación" style="margin-left: 50px;">
 		<label for="programación">Java</label>
-		<input type="checkbox" name="programación">
-		<label for="programación">Javascript</label>
-		<input type="checkbox" name="programación">
+		<input type="checkbox" name="programación" style="margin-left: 50px;">
+		<label for="programación">JavaScript</label><br>
+		<input type="checkbox" name="programación" style="margin-left: 50px;">
 		<label for="programación">PHP</label>
-		<input type="checkbox" name="programación">
-		<label for="programación">Python</label><br><br>
+		<input type="checkbox" name="programación" style="margin-left: 47px;">
+		<label for="programación">Python</label>
+		<input type="checkbox" name="programación" style="margin-left: 30px;">
+		<label for="programación">SAP</label><br><br>
 
-		<label for="universidad">Universidad:</label><br>
-		<select>
+		<label for="universidad" style="margin-left: 50px;">Universidad</label><br>
+		<select style="margin-left: 50px;">
 			<option>Universidad Nacional del Callao</option>
 			<option>Universidad Nacional de Ingeniería</option>
 			<option>Universidad Nacional Mayor de San Marcos</option>
@@ -52,7 +73,12 @@
 			<option>Pontificia Universidad Católica del Perú</option>
 		</select><br><br>
 
-		<input type="submit" value="Enviar">
+		<label style="margin-left: 50px;">Mensaje</label><br>
+		<textarea placeholder="Escribe tu consulta" name="textarea" rows="10" cols="70" style="margin-left: 50px; resize: none;"></textarea><br><br>
+
+		<center><input type="submit" value="Enviar" style="font-size: 15px; background-color: red; color: white; border: none; padding: 10px;"></center>
 	</form>
+
+	<p style="font-family: corbel; text-align: center; margin-bottom: 50px; color: white;">©2021, Walter Zerpa</p>
 </body>
 </html>
