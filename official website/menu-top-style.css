@@ -1,0 +1,28 @@
+.menu-top-container{
+	width: 80%;
+	margin: 0 auto;
+}
+.menu-top{
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	position: sticky;
+	top: 0;
+}
+.menu-top ul{
+	list-style: none;
+}
+.menu-top ul li{
+	display: inline-block;
+	padding: 20px;
+	transition: all 0.3s ease;
+}
+.menu-top ul li:hover{
+	transform: scale(1.2);
+	background-color: blue;	
+}
+.menu-top ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: monaco, monospace;
+}
