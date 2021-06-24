@@ -1,0 +1,155 @@
+.body-container{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.body-content{
+	width: 100%;
+	margin: auto;
+	height: auto;
+	overflow: hidden;
+}
+.sidemenu{
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	font-family: monaco, monospace;
+}
+.sidemenu ul{
+	list-style: none;
+	background-color: blue;
+}
+.sidemenu ul li{
+	padding: 20px;
+}
+.sidemenu ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+.sidemenu ul li:hover{
+	border-left: 5px solid white;
+	background-color: darkblue;
+	transition: all 0.3s ease;
+}
+.practice{
+	text-align: center;
+	padding: 60px 0;
+	height: auto;
+	width: 300px;
+	overflow: hidden;
+}
+.practice h3{
+	margin-top: -20px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+.practice a{
+	background-color: darkblue;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+.practice a:hover, .new-topics a:hover{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	transition: all 0.3s ease;
+}
+.new-topics{
+	text-align: center;
+	font-family: arial, sans-serif;
+	padding-bottom: 20px;
+}
+.new-topics h3{
+	margin: 10px;
+}
+.new-topics h4{
+	text-transform: uppercase;
+	font-family: monaco, monospace;
+	color: gray;
+}
+.new-topics h4:hover{
+	transition: all 0.3s ease;
+	color: blue;
+	cursor: pointer;
+	transform: scale(1.2);
+}
+.new-topics img{
+	width: 200px;
+	height: 100px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.new-topics hr{
+	width: 80%;
+	visibility: hidden;
+}
+.new-topics img:hover{
+	transform: scale(0.9);
+	transition: all 0.3s ease;
+}
+.new-topics p{
+	margin: 10px 20px;
+	font-size: 15px;
+}
+.last{
+	padding-bottom: 20px;
+}
+.new-topics a{
+	background-color: darkblue;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-family: monaco, monospace;
+}
+.article{
+	width: calc(100% - 540px);
+	height: auto;
+	overflow: hidden;
+	float: right;
+	padding: 40px 120px;
+	font-family: verdana, sans-serif;
+	background-color: white;
+}
+.article img{
+	width: 80%;
+	height: 40%;
+}
+.article img:hover{
+	transform: scale(0.9);
+	transition: all 0.3s ease;
+}
+.article-image{
+	text-align: center;
+}
+.article h1{
+	margin-bottom: 40px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.article h3{
+	color: gray;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+.article ul{
+	padding-left: 20px;
+}
+@media(max-width: 900px){
+	.sidemenu, .practice, .article{
+		width: 100%;
+	}
+	.new-topics hr{
+		visibility: visible;
+		margin-top: 40px;
+	}
+	.article{
+		padding: 40px 0;
+	}
+	.article h3, .article ul, .article p{
+		margin: 0 20px;
+	}
+}
