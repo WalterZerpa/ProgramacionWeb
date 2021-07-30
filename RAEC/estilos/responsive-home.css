@@ -1,0 +1,170 @@
+@media screen and (max-width: 1280px){
+	.contenedor-mision div{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1140px){
+	.registro{
+		padding: 75px 0 90px 0;
+	}
+	.registro h1{
+		margin-bottom: 45px;
+	}
+	.contenedor-mision{
+		padding: 65px;
+		padding-bottom: 80px;
+	}
+	.comentarios{
+		padding: 65px;
+	}
+	.comentarios h1{
+		margin-bottom: 15px;
+	}
+	.contacto{
+		padding: 65px 0 90px 0;
+	}
+}
+@media screen and (max-width: 1000px){
+	.banner div{
+		margin: auto;
+		left: 0;
+		padding: 150px 0 165px 0;
+	}
+	.programas{
+		padding: 65px 0 15px 0;
+	}
+	.programas h1{
+		margin-bottom: 65px;
+	}
+	.contenedor-programas div{
+		width: 50%;
+		margin-bottom: 50px;
+	}
+	.contenedor-programas div h2{
+		margin-bottom: 25px;
+	}
+	.contenedor-programas div h3, .contenedor-programas div p{
+		width: 225px;
+		margin: auto;
+		padding-bottom: 25px;
+	}
+	.contacto{
+		flex-direction: column;
+		align-items: center;
+	}
+	#titulo-oculto{
+		display: block;
+		margin-bottom: 65px;
+	}
+	.contenedor-contacto{
+		order: 1;
+		text-align: center;
+	}
+	.contenedor-contacto h1{
+		display: none;
+	}
+	.contenedor-contacto p:nth-child(2){
+		margin-top: 65px;
+	}
+	.contenedor-contacto p:nth-child(4){
+		margin-bottom: 0;
+	}
+	.contacto form{
+		order: 0;
+	}
+}
+@media screen and (max-width: 890px){
+	.mision{
+		flex-direction: column;
+	}
+	.contenedor-mision{
+		order: 1;
+		width: 100%;
+		text-align: center;
+	}
+	.contenedor-mision div p{
+		margin-bottom: 40px;
+	}
+	#imagen-mision{
+		order: 0;
+		width: 100%;
+		height: 320px;
+	}
+}
+@media screen and (max-width: 570px){
+	.banner div{
+		width: 375px;
+		padding: 90px 0 105px 0;
+	}
+	.banner div h1{
+		font-size: 60px;
+	}
+	.contenedor-programas div{
+		width: 100%;
+	}
+	.contenedor-programas div:nth-child(4){
+		margin-bottom: 0;
+	}
+	.registro{
+		padding: 45px 30px 60px 30px;
+	}
+	.registro h1{
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	.contenedor-mision{
+		padding: 45px 30px 60px 30px;
+	}
+	.contenedor-mision div h1{
+		font-size: 30px;
+		margin-bottom: 25px;
+	}
+	.programas, .comentarios, .contacto{
+		padding: 45px 30px;
+	}
+	.comentarios h1{
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+	.contenedor-comentarios div{
+		margin: 50px 0 0 0;
+	}
+	.contenedor-comentarios div p{
+		margin-bottom: 25px;
+	}
+	.contacto form, .contacto form div input, .contacto form div input:nth-child(5){
+		width: 100%;
+	}
+	.programas h1, #titulo-oculto{
+		font-size: 30px;
+		margin-bottom: 45px;
+	}
+	.contenedor-contacto p:nth-child(2){
+		margin-top: 45px;
+	}
+	.contacto form textarea{
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width: 485px){
+	.banner div{
+		width: 250px;
+	}
+	.banner div h1{
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 335px){
+	.banner div{
+		width: 100%;
+		padding: 45px 30px 60px 30px;
+	}
+	.banner div h1{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 290px){
+	.contenedor-programas div h3, .contenedor-programas div p{
+		width: 100%;
+	}
+}
