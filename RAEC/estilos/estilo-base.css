@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.contenedor-header, .contenedor-oculto{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+}
+#menu-lateral{
+	display: none;
+}
+#menu-lateral:checked + .contenedor-header nav{
+	transform: translateX(0%);
+	transition: .3s;
+}
+.contenedor-header li{
+	list-style: none;
+}
+#logo{
+	padding: 15px 0;
+}
+.contenedor-header a{
+	text-decoration: none;
+	color: #000;
+}
+#link-activo, .contenedor-header nav li a:hover, .contenedor-oculto a:hover{
+	color: #035;
+}
+.contenedor-header a h1{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+.contenedor-header nav{
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	font-size: 15px;
+	z-index: 1;
+}
+.contenedor-header nav li, .contenedor-header nav p{
+	padding: 30px 10px;
+}
+.contenedor-header nav li a, .contenedor-header nav li a:hover, .contenedor-oculto a:hover{
+	transition: .3s;
+}
+.contenedor-header nav ul{
+	margin: 0 5px;
+	display: flex;
+}
+.contenedor-header nav ul li{
+	padding: 30px 5px;
+}
+#login{
+	display: flex;
+}
+#login img{
+	margin-right: 10px;
+}
+.contenedor-oculto{
+	margin-bottom: 20px;
+	display: none;
+}
+.contenedor-header label{
+	background: #fff;
+	border: none;
+	cursor: pointer;
+	height: 30px;
+	margin-top: 25px;
+	display: none;
+}
+.contenedor-oculto a{
+	color: #000;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	transition: .3s;
+}
+.contenedor-oculto ul{
+	list-style: none;
+	display: flex;
+}
+.contenedor-oculto ul li{
+	padding: 0 5px;
+}
+footer{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 50px 0 25px 0;
+	font-size: 15px;
+}
+footer form{
+	display: flex;
+	flex-direction: column;
+	width: 480px;
+	margin: auto;
+	padding: 25px 0;
+}
+footer form input{
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	border: 1px solid #000;
+}
+footer form input::placeholder{
+	color: #000;
+}
+footer form input:focus{
+	outline: 2px solid #0af;
+}
+footer form button{
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #000;
+	font-size: 15px;
+}
+footer a{
+	text-decoration: none;
+	color: #000;
+}
+footer p{
+	margin-top: 10px;
+}
+footer ul{
+	margin: 25px 0 50px 0;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+footer ul li{
+	margin: 0 5px;
+}
+#copyright{
+	margin-top: 0;
+}
