@@ -21,6 +21,7 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	margin-bottom: 60px;
+	line-height: 200%;
 }
 .banner div a{
 	padding: 15px;
@@ -60,11 +61,13 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	margin: 50px 5px;
+	line-height: 200%;
 }
 .contenedor-programas p{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	margin-bottom: 50px;
+	line-height: 200%;
 }
 .contenedor-programas a{
 	text-decoration: none;
@@ -126,6 +129,7 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	margin-bottom: 60px;
+	line-height: 200%;
 }
 .contenedor-mision div a{
 	color: #fff;
@@ -170,6 +174,7 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	margin: 50px 0;
+	line-height: 200%;
 }
 .contenedor-comentarios div h3{
 	font-family: 'Montserrat', sans-serif;
