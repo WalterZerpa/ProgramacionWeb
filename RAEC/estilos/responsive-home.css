@@ -91,7 +91,7 @@
 		height: 320px;
 	}
 }
-@media screen and (max-width: 570px){
+@media screen and (max-width: 630px){
 	.banner div{
 		width: 375px;
 		padding: 90px 0 105px 0;
@@ -99,6 +99,8 @@
 	.banner div h1{
 		font-size: 60px;
 	}
+}
+@media screen and (max-width: 570px){
 	.contenedor-programas div{
 		width: 100%;
 	}
