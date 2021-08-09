@@ -4,9 +4,9 @@
 	}
 }
 @media screen and (max-width: 1130px){
-	.mision h1{
+	/*.mision h1{
 		padding: 60px;
-	}
+	}*/
 	.mision div{
 		padding: 65px;
 		width: 100%;
@@ -18,17 +18,20 @@
 	.personal{
 		padding: 65px 0;
 	}
-	.personal h1{
+	/*.personal h1{
 		margin-bottom: 65px;
-	}
+	}*/
 	.contenedor-personal div{
 		width: 50%;
 	}
-	.contenedor-personal div:nth-child(1), .contenedor-personal div:nth-child(2){
+	.contenedor-personal div:nth-child(1), .contenedor-personal div:nth-child(2), .contenedor-personal div:nth-child(3), .contenedor-personal div:nth-child(4){
 		margin-bottom: 50px;
 	}
-	#imagen-personal-1, #imagen-personal-2, #imagen-personal-3, #imagen-personal-4{
+	#imagen-personal-1, #imagen-personal-2, #imagen-personal-3, #imagen-personal-4, #imagen-personal-5{
 		height: 330px;
+	}
+	.contenedor-personal div:nth-child(5){
+		margin: auto;
 	}
 }
 @media screen and (max-width: 890px){
@@ -50,25 +53,25 @@
 	}
 }
 @media screen and (max-width: 570px){
-	.mision h1, .mision div{
+	/*.mision h1, */.mision div{
 		padding: 45px 30px;
 	}
-	.mision h1{
+	/*.mision h1{
 		font-size: 60px;
-	}
+	}*/
 	.contenedor-admision{
 		padding: 45px 30px 60px 30px;
 	}
 	.contenedor-admision div h1{
 		font-size: 30px;
-		margin-bottom: 25px;
+		/*margin-bottom: 25px;*/
 	}
 	.personal{
 		padding: 45px 0;
 	}
 	.personal h1{
 		font-size: 30px;
-		margin-bottom: 45px;
+		/*margin-bottom: 45px;*/
 	}
 	.contenedor-personal div{
 		width: 100%;
@@ -84,9 +87,9 @@
 	}
 }
 @media screen and (max-width: 425px){
-	.mision h1{
+	/*.mision h1{
 		font-size: 40px;
-	}
+	}*/
 }
 @media screen and (max-width: 340px){
 	.mision h1{
